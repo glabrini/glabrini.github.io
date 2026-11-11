@@ -32,7 +32,7 @@ window.SITE = {
   links: {
     email: "",          // TODO: your public e-mail
     github: "https://github.com/glabrini",
-    scholar: "",        // TODO: Google Scholar profile URL
+    scholar: "https://scholar.google.com/citations?user=VHlQSqIAAAAJ&hl=en",
     orcid: "",          // TODO: https://orcid.org/0000-0000-0000-0000
     researchgate: "https://www.researchgate.net/profile/Giovanni-Labrini",
     linkedin: "https://www.linkedin.com/in/giovanni-labrini-652421150/",

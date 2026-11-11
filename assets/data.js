@@ -25,7 +25,10 @@ window.SITE = {
     "Conjugate heat transfer (CHT)",
     "LES of turbine blades",
     "Cooling system optimization",
-    "Turbulence model calibration"
+    "Turbulence model calibration",
+    "Machine-learning-based shape optimization",
+    "Pressure gain combustion",
+    "H2/natural gas combustion and NOx emissions"
   ],
 
   // Contact / profile links. Leave a value as "" to hide the link.
@@ -49,36 +52,47 @@ window.SITE = {
     {
       year: 2026,
       type: "journal",
-      title: "TODO: Title of your journal article",
-      authors: ["Labrini, G.", "Co-author, A.", "Co-author, B."],
-      venue: "Journal Name",
-      volume: "vol. XX, no. X, pp. 1–15",
-      doi: "",
-      pdf: "",
-      code: "",
-      abstract: "TODO: One or two sentences summarising the paper."
+      title: "Optimization of an high-pressure turbine vane for pressure gain combustion cycles through convolutional neural network",
+      authors: ["Labrini, G.", "Nastasi, R.", "Salvadori, S.", "Misul, D.A."],
+      venue: "Energy and AI",
+      volume: "100729",
+      doi: "", pdf: "", code: ""
     },
     {
-      year: 2025,
+      year: 2026,
       type: "conference",
-      title: "TODO: Title of your conference paper",
-      authors: ["Labrini, G.", "Co-author, A."],
-      venue: "Conference name (e.g. ASME Turbo Expo / ETC), City",
-      volume: "Paper no. XXXX",
-      doi: "",
-      pdf: "",
-      code: "",
-      abstract: ""
+      title: "AI-Based Optimization of Internal Cooling Passages of a High-Pressure Vane",
+      authors: ["Labrini, G.", "Salvadori, S.", "Misul, D.A."],
+      venue: "ASME Turbo Expo",
+      volume: "Paper no. 89756, V005T15A004",
+      doi: "", pdf: "", code: ""
     },
     {
-      year: 2025,
-      type: "preprint",
-      title: "TODO: Title of your preprint",
+      year: 2024,
+      type: "journal",
+      title: "Shape optimization of a diffusive high-pressure turbine vane using machine learning tools",
+      authors: ["Nastasi, R.", "Labrini, G.", "Salvadori, S.", "Misul, D.A."],
+      venue: "Energies",
+      volume: "vol. 17, no. 22, 5642",
+      doi: "", pdf: "", code: ""
+    },
+    {
+      year: 2023,
+      type: "journal",
+      title: "Evaluation of NOx Emissions Associated to Non-Premixed Combustion of H2/Natural Gas Blends in a 40 MW Heavy-Duty Gas Turbine",
+      authors: ["Carusotto, S.", "Labrini, G.", "Salvadori, S.", "Baratta, M.", "Cardile, F.", "Toppino, M.", "et al."],
+      venue: "Journal of Engineering for Gas Turbines and Power",
+      volume: "vol. 145, no. 12, 121020",
+      doi: "", pdf: "", code: ""
+    },
+    {
+      year: "",
+      type: "thesis",
+      title: "Numerical simulation of the combustion process of blends of hydrogen and natural gas for power generation",
       authors: ["Labrini, G."],
-      venue: "arXiv / ResearchSquare preprint",
+      venue: "Politecnico di Torino",
       volume: "",
-      url: "",
-      abstract: ""
+      doi: "", pdf: "", code: ""
     }
   ],
 
@@ -118,7 +132,8 @@ window.SITE = {
     {
       group: "Machine Learning",
       items: [
-        { name: "Convolutional encoder-decoder surrogates (EnDeNN)", level: 4 }
+        { name: "Convolutional encoder-decoder surrogates (EnDeNN)", level: 4 },
+        { name: "ML-driven shape optimization of turbine vanes", level: 4 }
       ]
     },
     {

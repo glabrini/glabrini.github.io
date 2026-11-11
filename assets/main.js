@@ -97,7 +97,7 @@
     ]);
     return el("li", { class: "pub" }, [
       el("div", { class: "pub-meta" }, [
-        el("span", { class: "pub-year", text: String(p.year) }),
+        el("span", { class: "pub-year", text: p.year ? String(p.year) : "–" }),
         el("span", { class: "badge badge-" + p.type, text: typeLabels[p.type] || p.type })
       ]),
       body
@@ -114,7 +114,7 @@
   function renderPubs() {
     var list = $("pub-list");
     list.innerHTML = "";
-    var items = S.publications.slice().sort(function (a, b) { return b.year - a.year; }).filter(matches);
+    var items = S.publications.slice().sort(function (a, b) { return (b.year || 0) - (a.year || 0); }).filter(matches);
     if (!items.length) {
       list.appendChild(el("li", { class: "empty", text: "No publications match." }));
       return;

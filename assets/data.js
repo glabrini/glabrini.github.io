@@ -5,6 +5,7 @@
 
 window.SITE = {
   name: "Giovanni Labrini",
+  photo: "assets/photo.jpg",   // square image; shown in a round frame. "" to hide
   title: "PhD Candidate in Turbomachinery CFD",
   affiliation: "Politecnico di Torino · TEP group (Turbomachinery for Energy and Propulsion)",
   tagline:
@@ -33,8 +34,8 @@ window.SITE = {
     github: "https://github.com/glabrini",
     scholar: "",        // TODO: Google Scholar profile URL
     orcid: "",          // TODO: https://orcid.org/0000-0000-0000-0000
-    researchgate: "",   // TODO
-    linkedin: "",       // TODO
+    researchgate: "https://www.researchgate.net/profile/Giovanni-Labrini",
+    linkedin: "https://www.linkedin.com/in/giovanni-labrini-652421150/",
     cv: ""              // TODO: e.g. "assets/cv.pdf" (put the file in /assets)
   },
 

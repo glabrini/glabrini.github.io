@@ -26,6 +26,12 @@
   $("footer-name").textContent = S.name;
   $("year").textContent = new Date().getFullYear();
 
+  if (S.photo) {
+    var ph = $("photo");
+    ph.src = S.photo;
+    ph.hidden = false;
+  }
+
   // ---------- Links ----------
   var linkDefs = [
     ["email", "Email", function (v) { return "mailto:" + v; }],
